@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudades</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/ciudades.js"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <!-- evento de change -->
+        <select name="" id="select">
+            <option value="">Selecciona una ciudad</option>
+            <option value="1">Ordenar A-Z</option>
+            <option value="2">Ordenar Z-A</option>
+            <option value="3">Ordenar por habitantes descendente</option>
+            <option value="4">Ordenar por habitantes ascendente</option>
+        </select>
+
+        <!-- evento de click -->
+        <ul class="ciudades">
+            <!-- llenar dinamicamente con JavaScript -->
+        </ul>
+    </header>
+    <main>
+        <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="100%"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
